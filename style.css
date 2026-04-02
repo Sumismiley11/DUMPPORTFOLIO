@@ -1,0 +1,47 @@
+/* style.css — your website's makeover */
+
+/* Your colour palette as variables */
+:root {
+  --bg:      #0D1B2A;
+  --primary: #00B4D8;
+  --accent:  #48CAE4;
+  --text:    #FFFFFF;
+  --surface: #1A2E44;
+}
+
+body {
+  background: var(--bg);
+  color:      var(--text);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: var(--surface);
+}
+
+.hero {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Hover animation — makes it feel alive */
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.2s ease;
+}
