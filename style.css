@@ -2,11 +2,11 @@
 
 /* Your colour palette as variables */
 :root {
-  --bg:      #0D1B2A;
-  --primary: #00B4D8;
-  --accent:  #48CAE4;
-  --text:    #FFFFFF;
-  --surface: #1A2E44;
+  --bg:      #FFF0F5;
+  --primary: #FF006E;
+  --accent:  #8338EC;
+  --text:    #2D2D2D;
+  --surface: #FFE0EF;
 }
 
 body {
